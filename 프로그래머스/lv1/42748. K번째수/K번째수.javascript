@@ -6,6 +6,6 @@ function solution(numbers, commands) {
       return converted[command[2] - 1]
     }
     
-    return commands.map(command => pickNumber(command));
+    return commands.map(pickNumber);
 }
 
